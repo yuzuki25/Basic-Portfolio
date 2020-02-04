@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    /*width: 960px;*/
+    font-family: sans-serif;
+}
+
+html, body { /*This is for the sticky footer*/
+    height: 100%;
+}
+
+header {
+    padding: 40px;
+    background: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+
+body {
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Name {
+    float: left;
+    padding: 5px 20px 5px 20px;
+    margin-left: 13%;
+    background: #4aaaa5;
+    color: #fff;
+    font-size: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#About {
+    float: right;
+    padding: 0px 20px 0px 20px;
+    color: grey;
+    font-size: 18px;
+}
+
+#Portfolio {
+    float: right;
+    padding: 0px 20px 0px 20px;
+    color: grey;
+    font-size: 18px;
+}
+
+
+#Contact {
+    float: right;
+    padding: 0px 20px 0px 20px;
+    margin-right: 12%;
+    color: grey;
+    font-size: 18px;
+}
+
+
+.content { /* This is for the sticky footer*/
+    flex: 10 auto;
+}
+
+section{
+    background-image: url("../images/vintage-wallpaper/vintage-wallpaper.png");
+    width: 100%;
+    padding: 5% 15% 5% 15%;
+}
+
+#white {
+    background: #ffffff;
+    padding: 10px;
+    border: 2px solid #dddddd;
+}
+
+#Page-Title {
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#image {
+    float: left;
+    padding-right: 20px;
+}
+
+#paragraph {
+    
+}
+
+
+
+.footer { /* This is for the sticky footer*/
+    flex-shrink: 0;
+}
+
+footer {
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
