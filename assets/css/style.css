@@ -61,7 +61,7 @@ body {
     flex: 10 auto;
 }
 
-section{
+section {
     background-image: url("../images/vintage-wallpaper/vintage-wallpaper.png");
     width: 100%;
     padding: 5% 15% 5% 15%;
@@ -85,10 +85,20 @@ section{
     padding-right: 20px;
 }
 
-#paragraph {
-    
+span {
+    margin: 10%;
 }
 
+#PicRPG {
+    margin-left: 10%;
+}
+
+/*#PicRPG {
+    float: left;
+    position: relative;
+    left: 10%;
+    
+}*/
 
 
 .footer { /* This is for the sticky footer*/
