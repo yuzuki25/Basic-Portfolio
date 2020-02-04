@@ -85,12 +85,41 @@ section {
     padding-right: 20px;
 }
 
-span {
-    margin: 10%;
+
+/*This part is all for index page. Tried using different methods to place the images on the right part of the page and placing the text for that image on top, but couldn't get both to work at the same time. Ran out of time to try and figure it out.*/
+
+.box {
+    position: relative;
+    display: inline-block; 
 }
 
-#PicRPG {
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 80%; 
+    text-align: center;
+}
+
+.text {
+    
+}
+
+span {
+    color: #ffffff;
+    background: #4aaaa5;
+}
+
+#test {
+    color: #ffffff;
+    background: #4aaaa5;
+}
+
+#PicRight {
     margin-left: 10%;
+    z-index: -1;
 }
 
 /*#PicRPG {
@@ -99,6 +128,8 @@ span {
     left: 10%;
     
 }*/
+
+/*This is the end of the index only part*/
 
 
 .footer { /* This is for the sticky footer*/
